@@ -4,7 +4,7 @@ import { View, Text, TextInput, StyleSheet, Button } from 'react-native';
 const DonationForm = ({ text, donationAmount, setDonationAmount, donateHandler }) => {
   return (
     <View style={styles.donation}>
-      <Text style={styles.donationTitle}>"Faça sua doação:"</Text>
+      <Text style={styles.donationTitle}>Faça sua doação:</Text>
       <TextInput
         style={styles.donationInput}
         keyboardType='numeric'
